@@ -1,19 +1,15 @@
 # 2 months challenges for Google Cloud Professional Data Engineer
 
 公式サイト：
-
 https://cloud.google.com/learn/certification/data-engineer?hl=ja
 
 Data Engineer 模擬試験：
-
 https://docs.google.com/forms/d/e/1FAIpQLSd4j4bcgbYenBRFIL6Kb0cvXp13qCQ-z6JzowgDxRaPITn56g/viewform?hl=ja
 
 Coursera 対策サイト：
-
 https://jp.coursera.org/professional-certificates/gcp-data-engineering
 
 Udemy 対策サイト：　→ 買う予定なし
-
 https://www.udemy.com/course/google-cloud-professional-data-engineer-s/
 
 時間: 2 hours
