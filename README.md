@@ -1,17 +1,13 @@
 # 2 months challenges for Google Cloud Professional Data Engineer
 
 公式サイト：
-https://cloud.google.com/learn/certification/data-engineer?hl=ja
-
+https://cloud.google.com/learn/certification/data-engineer?hl=ja  
 模擬試験：
-https://docs.google.com/forms/d/e/1FAIpQLSd4j4bcgbYenBRFIL6Kb0cvXp13qCQ-z6JzowgDxRaPITn56g/viewform?hl=ja
-
+https://docs.google.com/forms/d/e/1FAIpQLSd4j4bcgbYenBRFIL6Kb0cvXp13qCQ-z6JzowgDxRaPITn56g/viewform?hl=ja  
 Coursera 対策サイト：
-https://jp.coursera.org/professional-certificates/gcp-data-engineering
-
-Udemy 対策サイト：　→ 買う予定なし
-https://www.udemy.com/course/google-cloud-professional-data-engineer-s/
-
+https://jp.coursera.org/professional-certificates/gcp-data-engineering  
+Udemy 対策サイト：　→ 買う予定なし  
+https://www.udemy.com/course/google-cloud-professional-data-engineer-s/  
 時間: 2 hours
 登録料: $200（税別）
 言語: 英語、日本語
@@ -25,5 +21,5 @@ Professional Data Engineer は、データを収集、変換、公開するこ�
 - データ ワークロードの維持と自動化
 
 Tips Blogs
-- https://data-viz-lab.com/gcpde
+- https://data-viz-lab.com/gcpde  
 Google Cloud Professional Data Engineer試験（以下PDE）は、データエンジニアリング・分析に関わるGoogle Cloudのプロダクト知識を網羅的に問う試験
