@@ -1,3 +1,6 @@
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 1
+--------
 Google Cloud has main concepts, Compute and Storage.
 103 zones and 34 regions(5大陸) covers system reduncancy.
 
@@ -45,6 +48,9 @@ App Engineの「手軽さ」とGKEの「コンテナを使える自由度」を�
 TPU (Tensor)
 Google develops customises both CPU and CPU.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 2
+--------
 ■ Storage
 List of Database and storge services
 - Cloud Storage
@@ -111,3 +117,70 @@ These above combines state-of-art-products（最先端の） build on ML develop
  - Retail Product Discovery
  - Healthcare
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3
+--------
+Data engineers & Data Scientists have 4 major challenges, 4Vs.
+- varietry：多様性
+- volume：量
+- velocity：速度/頻度
+- veraciry：信頼性/正確性
+
+■ Dataflow
+Dataflow creates a pipeline both...
+streaming data：流れてくるデータをリアルタイムに、継続的に処理する方式 = イベント単位で継続的に処理
+batch data：データを一定期間貯めてから、まとめて一括で処理する方式 = 大量のデータをまとめて一括処理
+
+ETL Process
+1. Extract
+2. Transform
+3. Load
+
+ex. Apatch Beam - Dataflow - BigQuery
+Dataflow is serverless and NoOps.
+NoOps：All automated (maintenance, monitoring, scaling)
+Serverless：On behalf of the user (resource provisioning, perfomance tuning, pipeline reliability)
+
+pipeline templates
+streamline templates
+batchtemplates
+ulitily 
+
+■ Looker
+Looker supports BigQuery, as well as more than 60 different SQL databases.
+Developers define a semantic modeling layer on top of databases using LookerML.
+
+Looker has multiple data visualization option
+- area charts
+- line charts
+- sankey diagrams
+- funnels
+- liquid fill gauges
+
+■ Looker Studio
+Looker Studio is integrated into BigQuery, Billing dashboard.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 4
+--------
+■ BigQuery
+?Data warehouse has organized data
+?Data lake has 
+
+BigQuery provides 2 services connected Google's high speed internal network.
+- Fully managed storage facility for datasets
+- Fast SQL-based analytical engine
+
+Key features
+- Storage plus analytics
+  - Ad hoc analysis
+  - Geospatial analysis
+  - Building machine learning models
+  - Building BI dashboard
+- Serverless
+- Flexible pay-as-you-go procing model
+- Data encryption at rest by default
+- Built-in machine learning
+
+Streaming data ---> Pub/Sub  ---> Dataflow ---> BigQuery ---> BI tools (Looker, Tableau, Google Sheets)
+Batch data --- Cloud Storage ---> Dataflow ---> BigQuery ---> AL/ML tools (AutoML, Vertex AI workbench)
