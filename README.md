@@ -26,8 +26,13 @@ Google Cloud Professional Data Engineer試験（以下PDE）は、データエ�
 --- Schedule ---  
 10/03 Taken Official Exam  
 10/04-10/5  Chap1 Module1-7  
-10/06-10/12 Chap2 Module1-4  
-10/13-10/19 Chap2 Module5,6  
-10/20-10/26 Chap3 Module1-7  
-10/27-10/31 Chap4 Module1-7  
-11/01-11/08 Chap5 Module1-7  
+10/06-10/12 Chap2 Module1-7  
+10/13-10/19 Chap3 Module1-7  
+10/20-10/26 Chap4 Module1-7  
+10/27-10/31 Chap5 Module1-7  
+11/01-11/05 Chap6 Module1-7
+11/08 Taken Exam
+簡単なので受かれ！
+
+7-10 days needed
+11/12 2025-Second-half performance review
