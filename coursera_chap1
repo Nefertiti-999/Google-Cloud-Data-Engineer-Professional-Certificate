@@ -184,3 +184,13 @@ Key features
 
 Streaming data ---> Pub/Sub  ---> Dataflow ---> BigQuery ---> BI tools (Looker, Tableau, Google Sheets)
 Batch data --- Cloud Storage ---> Dataflow ---> BigQuery ---> AL/ML tools (AutoML, Vertex AI workbench)
+
+Model types
+- Build a model
+Supervised models：Task-driven and identify a goal
+   - Classify data    = Logistic regression  
+   - Predict a number = Linear regression
+Unsupervised models：Data-driven and identify a pattern
+   - Identify patterns and clusters = Cluster analysis
+
+- Train a model
