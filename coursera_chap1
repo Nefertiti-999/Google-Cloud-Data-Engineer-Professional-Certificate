@@ -187,10 +187,10 @@ Batch data --- Cloud Storage ---> Dataflow ---> BigQuery ---> AL/ML tools (AutoM
 
 Model types
 - Build a model
-Supervised models：Task-driven and identify a goal
+Supervised models（教師あり学習）：Task-driven and identify a goal
    - Classify data    = Logistic regression  
    - Predict a number = Linear regression
-Unsupervised models：Data-driven and identify a pattern
+Unsupervised models（教師なし学習）：Data-driven and identify a pattern
    - Identify patterns and clusters = Cluster analysis
 
 - Train a model
