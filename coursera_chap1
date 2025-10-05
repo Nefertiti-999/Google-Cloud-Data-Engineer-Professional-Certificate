@@ -72,7 +72,7 @@ List of data type
                           --- Global scalability         ---> Spanner
                 --- NoSQL                                ---> Firestore
   Analytical    --- SQL                                  ---> BigQuery
-                --- SQL                                  ---> Bigtable
+                --- NoSQL                                ---> Bigtable
 ※Transactional = 日々の業務を処理するためのもの
   Analytical = 蓄積されたデータを分析し、経営や戦略の意思決定に役立てるためのもの
 
