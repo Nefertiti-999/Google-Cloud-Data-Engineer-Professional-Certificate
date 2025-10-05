@@ -8,10 +8,7 @@ Coursera 対策サイト：
 https://jp.coursera.org/professional-certificates/gcp-data-engineering  
 Udemy 対策サイト：    
 https://www.udemy.com/course/google-cloud-professional-data-engineer-s/  
-時間: 2 hours  
-登録料: $200（税別）  
-言語: 英語、日本語  
-試験の形式: 50 ～ 60 問の多肢選択（複数選択）式  
+時間: 2 hours, 登録料: $200（税別）, 言語: 英語、日本語, 試験の形式: 50 ～ 60 問の多肢選択（複数選択）式  
 
 Professional Data Engineer は、データを収集、変換、公開することで、データを有効で価値のあるものにします。
 ビジネス要件と規制要件を満たすために、プロダクトやサービスを評価し、選択します。Professional Data Engineer は、堅牢なデータ処理システムを作成して管理します。
