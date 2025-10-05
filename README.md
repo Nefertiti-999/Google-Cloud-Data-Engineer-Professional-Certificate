@@ -1,17 +1,17 @@
 # 2 months challenges for Google Cloud Professional Data Engineer
 
-公式サイト：
+公式サイト：  
 https://cloud.google.com/learn/certification/data-engineer?hl=ja  
-模擬試験：
+模擬試験：  
 https://docs.google.com/forms/d/e/1FAIpQLSd4j4bcgbYenBRFIL6Kb0cvXp13qCQ-z6JzowgDxRaPITn56g/viewform?hl=ja  
-Coursera 対策サイト：
+Coursera 対策サイト：  
 https://jp.coursera.org/professional-certificates/gcp-data-engineering  
-Udemy 対策サイト：　→ 買う予定なし  
+Udemy 対策サイト：    
 https://www.udemy.com/course/google-cloud-professional-data-engineer-s/  
-時間: 2 hours
-登録料: $200（税別）
-言語: 英語、日本語
-試験の形式: 50 ～ 60 問の多肢選択（複数選択）式
+時間: 2 hours  
+登録料: $200（税別）  
+言語: 英語、日本語  
+試験の形式: 50 ～ 60 問の多肢選択（複数選択）式  
 
 Professional Data Engineer は、データを収集、変換、公開することで、データを有効で価値のあるものにします。
 ビジネス要件と規制要件を満たすために、プロダクトやサービスを評価し、選択します。Professional Data Engineer は、堅牢なデータ処理システムを作成して管理します。
