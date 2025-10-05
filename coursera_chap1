@@ -38,3 +38,43 @@ Cloud Run
 App Engineの「手軽さ」とGKEの「コンテナを使える自由度」を併せ持ったようなサービス。
 コンテナイメージさえあれば、あとはお任せで公開・運用してくれるため、サーバスケーリングを気にせずコードだけ書いてりゃいい。
 
+TPU (Tensor)
+Google develops customises both CPU and CPU.
+
+List of Database and storge services
+- Cloud Storage
+- Bigtable
+- Cloud SQL
+- Spanner
+- Firestore
+- BigQuery
+Each products have the same final goal to reduce the time and effort needed to store data.
+
+List of storage types
+- Relational databases
+- Non-relational databases
+- Worldwide ojject storage
+Choosing the right option to store and process data often depends on the "Data type" that needs to be stored and the "Business needs".
+
+List of data type
+- Unstructured data: Documents, Images, Audio files
+  Suited for Cloud Storage and recently Bigquery.
+- Structured data: Transactional workload(SQL/NoSQL), Analytical workload(SQL/NoSQL) 
+  Suited for Cluod SQL, Spanner, Firebase, BigQuery and Bigtable.
+
+■ How choose Google data storage products
+  Transactional --- SQL   --- Local/regional scalability ---> CloudSQL
+                          --- Global scalability         ---> Spanner
+                --- NoSQL                                ---> Firestore
+  Analytical    --- SQL                                  ---> BigQuery
+                --- SQL                                  ---> Bigtable
+※Transactional = 日々の業務を処理するためのもの
+  Analytical = 蓄積されたデータを分析し、経営や戦略の意思決定に役立てるためのもの
+
+Bucket is what??
+
+Storage classes
+- Standard Storage (Hot data)
+- Nearline Storage (Once per month)
+- Coldline Storage (Once every 90 days)
+- Achive Storage (Once a year)
