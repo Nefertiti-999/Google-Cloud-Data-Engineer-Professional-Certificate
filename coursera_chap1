@@ -83,3 +83,31 @@ Storage classes
 - Nearline Storage (Once per month)
 - Coldline Storage (Once every 90 days)
 - Achive Storage (Once a year)
+
+■ Data to AI workflow
+Ingestion & process
+ - pub/sub
+ - Dataflow
+ - Dataproc
+ - Cloud Data Fusion
+Storage
+ - Cloud Storage
+ - Cluod SQL (RDB)
+ - Spanner (RDB)
+ - Bigtable (NoSQL)
+ - Firestore (NoSQL)
+Analytics
+ - BigQuery
+ - Looker
+ - Looker Studio
+Machine Learning
+ - Vertex AI
+ - AutoML
+ - Vertex AI workbench
+ - TensorFlow
+These above combines state-of-art-products（最先端の） build on ML development platform
+ - Document AI
+ - Contract Center AI
+ - Retail Product Discovery
+ - Healthcare
+
