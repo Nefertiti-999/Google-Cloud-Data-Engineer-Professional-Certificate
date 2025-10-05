@@ -1,0 +1,40 @@
+Google Cloud has main concepts, Compute and Storage.
+103 zones and 34 regions(5大陸) covers system reduncancy.
+
+Big Data and ML Products
+ Compute       Storage
+ Networking & Security
+
+Google Compute Engine
+- IssS Offering
+- Compute
+- Storage
+- Network
+VMのようなもの
+
+Google Kubernetes Engine(GKE)
+- Containerized applications
+- Cluoud environment
+独立したCompute Engineとは反対に、クラウド内部にコンテナ化されたアプリケーションたちを裏側で動かすサービス。依存関係もすべてパッケージ化されている。
+
+App Engine
+- Fully managed PaaS offering
+- Bind code to libraries
+- Focused on application logic
+PaaS特化のサービスでアプリ開発者向けにアプリ内部のロジックに注力可能である。
+
+Cloud Functions
+- Executes code in response to events
+- Functions as a service offering
+FaaS/イベント駆動型サービスの一種。
+Cloud Functionsに対し、なにか操作（イベント）をしたことがトリガーとなりコードが実行される。
+開発者のようにrun等のコマンドを打たず、サービスの一部としてそのまま利用でき、実行されたときのみ課金される。
+
+Cloud Run
+- Fully managed platform
+- Lets you focus on writing code
+- Automatically scales up and down
+- Charges you only for the resources you use
+App Engineの「手軽さ」とGKEの「コンテナを使える自由度」を併せ持ったようなサービス。
+コンテナイメージさえあれば、あとはお任せで公開・運用してくれるため、サーバスケーリングを気にせずコードだけ書いてりゃいい。
+
