@@ -23,7 +23,7 @@ Tips Blogs
 - https://data-viz-lab.com/gcpde  
 Google Cloud Professional Data Engineer試験（以下PDE）は、データエンジニアリング・分析に関わるGoogle Cloudのプロダクト知識を網羅的に問う試験
 
---- Schedule ---
+--- Schedule ---  
 10/03 Taken Official Exam  
 10/04-10/5  Chap1 Module1-7  
 10/06-10/12 Chap2 Module1-4  
