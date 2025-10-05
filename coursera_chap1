@@ -1,10 +1,14 @@
 Google Cloud has main concepts, Compute and Storage.
 103 zones and 34 regions(5大陸) covers system reduncancy.
 
+------------------------
 Big Data and ML Products
- Compute       Storage
- Networking & Security
+------------------------
+ Compute   |   Storage
+------------------------
+  Networking & Security
 
+■ Compute
 Google Compute Engine
 - IssS Offering
 - Compute
@@ -41,6 +45,7 @@ App Engineの「手軽さ」とGKEの「コンテナを使える自由度」を�
 TPU (Tensor)
 Google develops customises both CPU and CPU.
 
+■ Storage
 List of Database and storge services
 - Cloud Storage
 - Bigtable
