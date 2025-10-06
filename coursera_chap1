@@ -1,15 +1,23 @@
+Module 1 Big Data and Machine Learning on Google Cloud
+Module 2 Data Engineering for Streaming Data
+Module 3 Big Data with BigQuery
+Module 4 ML Options
+Module 5 ML Workflow with Vertex AI
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Module 1
 --------
 Google Cloud has main concepts, Compute and Storage.
 103 zones and 34 regions(5大陸) covers system reduncancy.
 
+Google platform is consist of 4 factors underbelow.
 ------------------------
 Big Data and ML Products
 ------------------------
  Compute   |   Storage
 ------------------------
   Networking & Security
+------------------------
 
 ■ Compute
 Google Compute Engine
@@ -141,7 +149,7 @@ Dataflow is serverless and NoOps.
 NoOps：All automated (maintenance, monitoring, scaling)
 Serverless：On behalf of the user (resource provisioning, perfomance tuning, pipeline reliability)
 
-pipeline templates
+pipeline templates ?? 追記する
 streamline templates
 batchtemplates
 ulitily 
@@ -198,23 +206,23 @@ Unsupervised models（教師なし学習）：Data-driven and identify a pattern
 Lifetime value (LTV)   
 顧客の購買過去履歴や類似行動からどの程度収益が見込めるかの指標  
 
-- Key phases of ML Project  
+Key phases of ML Project  
 1. ETL data into BigQuery  
 2. Select and preprocess features  
 3. Create the model inside BigQuery  
 4. Evaluate the performance of the trained model  
 5. Use the model to make predictions  
 
-- List of commands -  
-Labels：コマンドなんだったか埋める
-Features  
-Model object  
-Model  
-Model types  
-Training progress  
-Inspect wheights  
-Evaluation：？？
-prediction：ML.PREDICT()
+List of commands 
+- Labels：コマンドなんだったか埋める
+- Features  
+- Model object  
+- Model  
+- Model types  
+- Training progress  
+- Inspect wheights  
+- Evaluation：？？
+- Prediction：ML.PREDICT()
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Module 5
@@ -225,6 +233,8 @@ List of creating model type
 - pre-build APIs (already trained by Google)
 - AutoML (no-code solution on Vertex AI)
 - Custome training
+
+Understand Matrix
                      |    BigQuery ML    |         pre-build APIs        |           AutoML              |       Custome training        |
 Data type            |      Tabular      |  Tabular, image, text, video  |  Tabular, image, text, video  |  Tabular, image, text, video  |
 Training data size   |  Medium to large  |        No data required       |       Small to medium         |       Medium anto larg        |
@@ -233,3 +243,56 @@ hyperparameters      |      Medium       |             None              |      
 Time to train model  |      Medium       |             None              |             Medium            |            Long               |
 
 ■ Pre-build APIs
+
+■ Vertex AI
+platoformらしい。
+AutoML, Custom training とwork together 可能らしい。
+- Data readiness
+- Feature readiness
+- Training and hyperparameter tuning
+- Deployment and model monitoring
+
+List of Google AI produces
+AI solutions
+ - Horizontal solutions（Document AI, CCAI）
+ - Vertical/Industry solutions (Retail Product Delivery, Healthcare Data Engine, Lending DocAI)
+AI development platform
+ - Vertex AI: AutoML
+ - Vertex AI: Custom training
+ - Pre-built APIs
+ - BigQuery ML
+AI foundation
+ - Infrastructure: Compute, storage, networking
+ - Data: BigQuery, Dataflow, Looker
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 6
+--------
+
+Traditional programming：Data + ruleset = answer
+Machine learning：
+
+Learning process
+1. Data preparation
+  Step1. Data uploading
+  Step2. Feature engineering
+- Data types
+  - Streaming vs batch data
+  - Structured vs unstructured data
+
+2. Model training
+Train data   <---> Evaluate value
+
+3. Model serving
+- Deployed
+- Monitored
+- Managed
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Module 7
+--------
