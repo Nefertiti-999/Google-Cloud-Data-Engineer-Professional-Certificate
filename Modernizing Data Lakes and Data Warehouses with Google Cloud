@@ -12,3 +12,6 @@ Data Ware House --- 構造化データのみ：
 Data Lake       --- 構造化データ＆非構造化データ：分析に最適化されたクエリパフォーマンスやデータの品質管理が不十分   
 Data Lake House --- 上記２つを合体させたもの
 ref: https://www.hulft.com/column/data-utilization-data-lakehouse?utm_source=google&utm_medium=cpc&utm_campaign=pmax&gad_source=1&gad_campaignid=23073602566&gbraid=0AAAAADqJU-VFYc-xnhpuO8Yc0Tl4RQiSj&gclid=EAIaIQobChMI8fbClajVkAMVFtQWBR0Togp6EAAYAyAAEgJxI_D_BwE
+
+Cloud Storage
+Amazon S3 vs Cloud Storage：https://blog.g-gen.co.jp/entry/cloud-storage-vs-amazon-s3
