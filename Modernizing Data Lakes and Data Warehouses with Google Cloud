@@ -1,0 +1,13 @@
+Components of Data Engineering eco-system
+
+- Data sources
+- Data sinks
+  - Central data lake repository
+  - Data warehouse: ready for analysis?
+- Data pipelines (batch and streaming)
+- High-level orchestration workflow
+
+
+Data Ware House --- 構造化データのみ：
+Data Lake       --- 構造化データ＆非構造化データ：分析に最適化されたクエリぱふぉーまんづやデータの品質管理が不十分   
+Data Lake House --- 上記２つを合体させたもの
